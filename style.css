@@ -1,0 +1,86 @@
+body {
+	font-family: 'Ubuntu Mono', serif;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+
+
+
+/* CREDITS SCREEN */
+#credits {
+	display:none;
+}
+
+#credits h1 {
+	margin: 50px 0 30px;
+	line-height: 3em;
+}
+
+/* MAIN BACKGROUND */
+#landing {
+	display: none;
+}
+
+#landing .wagon {
+	display: block;
+	z-index: -5;
+	position: fixed;
+	bottom: -40px;
+	width: 100%;
+}
+
+/* TITLE SCREEN */
+#title {
+	display: none;
+}
+
+#title .header {
+	margin-top: 100px;
+}
+
+#title h1 {
+	font-size: 4em;
+	font-weight: normal;
+}
+
+#title .underline {
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+}
+
+#title .enter {
+	background-color: transparent;
+	color: #fff;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	margin-top: 50px;
+	font-size: 1.5em;
+}
+
+#title .enter:hover {
+	color: #2222ff;
+}
+
+/* GAME SCREEN */
+#game {
+	display: none;
+	border: 5px solid #fff;
+	border-radius: 10px;
+	min-width: 400px;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 75px;
+}
+
+#game h3 {
+	margin: 0;
+	padding: 30px;
+	line-height: 2em;
+}
+
+
+
+
+
